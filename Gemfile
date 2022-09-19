@@ -5,6 +5,9 @@ ruby '2.7.6'
 
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails', branch: 'main'
 gem 'rails', '~> 6.1.5', '>= 6.1.5.1'
+
+gem 'bootstrap-sass', '3.4.1'
+
 # Use postgresql as the database for Active Record
 gem 'pg', '~> 1.1'
 # Use Puma as the app server
@@ -64,4 +67,5 @@ end
 group :development, :test do
   gem "ruby-debug-ide"
   gem "debase"
+  gem 'rails-controller-testing'
 end
